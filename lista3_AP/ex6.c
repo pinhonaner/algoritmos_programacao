@@ -15,4 +15,23 @@ informará valores iguais.
 
 int main() {
     float value_1, value_2, value_3;
+    printf("Digite um número: ");
+    scanf("%f", &value_1);
+    printf("Digite outro número: ");
+    scanf("%f", &value_2);
+    printf("Digite um terceiro número: ");
+    scanf("%f", &value_3);
+    if ((value_1>value_2) && (value_1>value_3))
+    {
+        printf("O valor %f é maior", value_1);
+    } 
+    else if ((value_2>value_1) && (value_2>value_3))
+    {
+        printf("O valor %f é maior", value_2);
+    } 
+    else if ((value_3>value_1) && (value_3>value_2))
+    {
+        printf("O valor %f é maior", value_3);
+    }
+    
 }
