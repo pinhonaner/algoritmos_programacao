@@ -10,3 +10,9 @@ informará valores iguais.
 [Saída]     | [Saída]   | [Saída]   | [Saída]   | [Saída]   | [Saída]
 5           | 8         | 7         | 9         | 8         | 6
 */
+
+#include <stdio.h>
+
+int main() {
+    float value_1, value_2, value_3;
+}
